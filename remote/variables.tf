@@ -1,9 +1,9 @@
 variable "name_of_s3_bucket" {
-   default = "test211293"
+   default = "cr-frontend-remotestate"
 }
 
 variable "dynamo_db_table_name" {
-   default = "state-locking"
+   default = "CR-Frontend-state-locking"
 }
 
 variable "region" {
