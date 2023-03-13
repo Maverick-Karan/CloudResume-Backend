@@ -41,4 +41,7 @@ How I achieved the goal:
 
 ![AWS resume challenge](https://user-images.githubusercontent.com/122704306/224604070-acacefb0-da51-42c1-af0f-ea606f4f234a.png)  
 
-_For Frontend please review the CloudResume-Frontend repository
+_For Frontend please review the CloudResume-Frontend repository  
+
+
+[AWS Cloud Resume Challenge ](https://cloudresumechallenge.dev/docs/the-challenge/aws/)by Forrest Brazeal
