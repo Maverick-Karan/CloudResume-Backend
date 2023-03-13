@@ -33,4 +33,6 @@ How I achieved the goal:
 -Requested TLS certificate for HTTPS via AWS Certificate Manager and attached to Cloudfront Distribution  
 -Created Terraform modules and resources to manage Infrastructure as Code  
 -Pushed the code to Github Repo  
--Wrote a CICD pipepline using GitHub Actions for Frontend
+-Wrote a CICD pipepline using GitHub Actions for Frontend  
+
+![AWS resume challenge](https://user-images.githubusercontent.com/122704306/224604070-acacefb0-da51-42c1-af0f-ea606f4f234a.png)
