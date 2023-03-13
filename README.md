@@ -22,10 +22,10 @@ These are the steps that are part of the challenge:
 
 How I achieved the goal:
 
--As I am not a web developer but do have some basic HTML kowledge, I was able to get a HTML template with CSS to create my Resume
--Created S3 bucket to secure the webiste files  
+-As I am not a web developer but do have some basic HTML kowledge, I was able to download a HTML template with CSS to customize my Resume  
+-Created S3 bucket to secure the website files  
 -Initidated Dynamo DB to store the visitor count  
--Created a Lambda funtion using Python to iterate visitor count and attached permissions to access DynamoDB  
+-Created a Lambda funtion using Python to iterate visitor counter and attached permissions to access DynamoDB  
 -Integrated Lambda funtion with API gateway for Website JS to POST request via RESTful API  
 -Initiated Cloudfront Distributiona and attached origin as S3 Bucket  
 -Created a Hosted Zone in Rooute 53 and created a Type A record  
