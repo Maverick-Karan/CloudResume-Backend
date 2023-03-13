@@ -31,9 +31,9 @@ How I achieved the goal:
 -Created a Lambda funtion using Python to increment visitor counter and attached permissions to access DynamoDB  
 -Integrated Lambda funtion with API gateway for Website JS to POST request via RESTful API  
 -Initiated Cloudfront Distribution and attached S3 Bucket as origin  
--Created a Hosted Zone in Rooute 53 and created a Type A record  
--Bought a Domain Name via third party, changed DNS NS as per Route53 NS  
--Requested TLS certificate for HTTPS via AWS Certificate Manager and attached to Cloudfront Distribution  
+-Created a Type A record in a Hosted Zone in Route 53  
+-Bought a Domain Name via third party, changed their DNS NS as per Route53 NS  
+-Requested TLS certificate for HTTPS via AWS Certificate Manager and attached it to Cloudfront Distribution  
 -Created Terraform modules and resources to manage Infrastructure as Code  
 -Initialized Terraform Remote State Locking  
 -Pushed the code to Github Repo  
