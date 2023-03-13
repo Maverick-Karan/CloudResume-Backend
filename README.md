@@ -32,7 +32,10 @@ How I achieved the goal:
 -Bought a Domain Name via third party, changed DNS NS as per Route53 NS  
 -Requested TLS certificate for HTTPS via AWS Certificate Manager and attached to Cloudfront Distribution  
 -Created Terraform modules and resources to manage Infrastructure as Code  
+-Initialized Terraform Remote State Locking  
 -Pushed the code to Github Repo  
 -Wrote a CICD pipepline using GitHub Actions for Frontend  
 
-![AWS resume challenge](https://user-images.githubusercontent.com/122704306/224604070-acacefb0-da51-42c1-af0f-ea606f4f234a.png)
+![AWS resume challenge](https://user-images.githubusercontent.com/122704306/224604070-acacefb0-da51-42c1-af0f-ea606f4f234a.png)  
+
+_For Frontend please review the CloudResume-Frontend repository
