@@ -11,5 +11,5 @@ variable "bucket_id" {
 }
 
 variable "acm" {
-   default = "arn:aws:acm:us-east-1:779524864497:certificate/b3533885-be21-440a-8880-e7ddb1f1960b"
+   default = "arn:aws:acm:us-east-1:664967790151:certificate/8053691a-8b4f-4d37-9b69-6eeb2d0f264e"
 }

@@ -7,7 +7,7 @@ terraform {
 
 
   resource "aws_s3_bucket" "website_bucket" {
-  bucket = "aws-cloud-resume-challenge-karan-test1"
+  bucket = "aws-cloud-resume-challenge-karan-test2"
 
   server_side_encryption_configuration {
     rule {

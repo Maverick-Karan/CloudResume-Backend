@@ -4,10 +4,10 @@ terraform {
   required_version = "~> 1.3.0"
 
   backend "s3" {
-    bucket         = "test211293"
+    bucket         = "cr-remotestate"
     key            = "backend/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "state-locking"
+    dynamodb_table = "CR-state-locking"
     encrypt        = true
   }
 }
