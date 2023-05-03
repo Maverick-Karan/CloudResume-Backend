@@ -28,7 +28,7 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      run: terraform init -migrate-state #-migrate-state #-input=false  #-reconfigure
+      run: terraform init -input=false #-migrate-state #-input=false  #-reconfigure
 
     - name: Terraform validation
       run: terraform validate
